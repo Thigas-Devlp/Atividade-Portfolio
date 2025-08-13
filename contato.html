@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+           <h1>Portifolio</h1>
+           <nav>
+               <ul>
+                   <a href="index.html">Home</a>
+                   <a href="contato.html">Contato</a>
+                   <a href="sobre.html">Sobre</a>
+               </ul>
+           </nav>
+           </header>
+       </div>
+
+       <main id="contato">
+        <section>
+            <h2>Deixe seu contato comigo</h2>
+            <form action="contato.html" method="POST" onsubmit="getInfos()">
+                <label for="nome">Nome</label>
+                <input type="text" placeholder="Digite seu nome" name="nome" id="nameInput" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" placeholder="Digite seu email" name="email" id="emailInput" required>
+
+                <label for="comments"></label>
+                <textarea name="comments" id="comment" placeholder="Deixe um comentário"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        </main>
+        <footer>
+            <p>Todos os direitos reservados</p>
+        </footer> 
+</body>
+</html>
